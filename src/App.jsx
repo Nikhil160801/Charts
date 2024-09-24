@@ -8,6 +8,8 @@ import BarChartModel from './components/BarGraph';
 import DoubleBarChart from './components/DoubleBar';
 import StackedAreaChart from './components/StackedAreaChart';
 import { Home } from './pages/HomePage';
+import Footer from './components/Footer';
+import SalesBarChart from './components/SingleSideDoubleBar';
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
           <Route path="/pie" element={<PieChartModel />} />
           <Route path="/doublebar" element={<DoubleBarChart />} />
           <Route path="/stackedareachart" element={<StackedAreaChart />} />
+          <Route path="/singlesidedoublebar" element={<SalesBarChart />} />
         </Routes>
       </div>
+      <Footer/>
     </Router>
   );
 }

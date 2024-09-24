@@ -38,19 +38,22 @@ const Navbar = () => {
       <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'} mt-2 md:mt-0`}>
         <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <li>
-            <Link to="/bar" className="hover:underline border-2 border-solid border-indigo-300 rounded-lg p-2">BarGraph</Link>
+            <Link to="/bar" className="hover:underline">BarGraph</Link>
           </li>
           <li>
-            <Link to="/doublebar" className="hover:underline border-2 border-solid border-indigo-300 rounded-lg p-2">DoubleGraph</Link>
+            <Link to="/doublebar" className="hover:underline">DoubleGraph</Link>
           </li>
           <li>
-            <Link to="/stackedareachart" className="hover:underline border-2 border-solid border-indigo-300 rounded-lg p-2">StackedAreaChart</Link>
+            <Link to="/stackedareachart" className="hover:underline">StackedAreaChart</Link>
           </li>
           <li>
-            <Link to="/line" className="hover:underline border-2 border-solid border-indigo-300 rounded-lg p-2">LineChart</Link>
+            <Link to="/line" className="hover:underline">LineChart</Link>
           </li>
           <li>
-            <Link to="/pie" className="hover:underline border-2 border-solid border-indigo-300 rounded-lg p-2">PieChart</Link>
+            <Link to="/pie" className="hover:underline">PieChart</Link>
+          </li>
+          <li>
+            <Link to="/singlesidedoublebar" className="hover:underline">SalesChart</Link>
           </li>
         </ul>
       </div>
